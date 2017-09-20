@@ -1,0 +1,36 @@
+/// Baseline
+@include set( baseline, rem(12) );
+
+/// Typefaces
+@include set( typefaces, (
+	serif: ( serif ),
+	sans:  ( 'TT Norms', sans-serif ),
+	mono:  ( monospace, monospace )
+) );
+
+/// Font Sizes
+@include set( font-sizes, (
+	l: rem(20),
+	m: rem(16),
+	s: rem(12),
+	0: 0 
+) );
+
+/// Line Heights
+@include set( line-heights, (
+	l: bl(2.25),
+	m: bl(1.75),
+	s: bl(1.5),
+	0: 0 
+) );
+
+/// Tracking
+@include set( tracking, (
+	0  : 0
+) );
+
+/// Font Weights
+@include set( font-weights, (
+	n : normal,
+	b : bold
+) );

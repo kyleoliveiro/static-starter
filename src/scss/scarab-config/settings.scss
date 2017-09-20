@@ -1,0 +1,32 @@
+// Carapace Settings
+
+@include set( output-classes,   true );
+@include set( reset-styles,     true );
+@include set( normalize-styles, true );
+
+@include set( selector-format,   '{{b}}{{bp}}{{s}}{{sp}}{{rp}}{{r}}{{rs}}{{vp}}{{v}}{{mp}}{{m}}{{ms}}{{ss}}{{bs}}' );
+@include set( root-prefix,       null );
+@include set( root-suffix,       null );
+@include set( variant-prefix,    '\\-' );
+@include set( variant-suffix,    null );
+@include set( modifier-prefix,   '\\:' );
+@include set( modifier-suffix,   null );
+@include set( breakpoint-prefix, '\\(' );
+@include set( breakpoint-suffix, '\\)' );
+@include set( state-prefix,      '\\(' );
+@include set( state-suffix,      '\\)' );
+
+@include set( states, (
+	hover  : 'hv',
+	active : 'ac',
+	focus  : 'fc'
+) );
+
+@include set( directions, (
+	top        : 't',
+	right      : 'r',
+	bottom     : 'b',
+	left       : 'l',
+	horizontal : 'x',
+	vertical   : 'y'
+) );

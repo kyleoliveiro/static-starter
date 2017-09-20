@@ -1,0 +1,15 @@
+// Color palettes
+@include set( palettes, (
+	black: (
+		base: #000000
+	),
+	white: (
+		base: #ffffff
+	),
+	cyan: (
+		base: #8EFFF3
+	),
+	transparent: (
+		base: transparent
+	)
+) );

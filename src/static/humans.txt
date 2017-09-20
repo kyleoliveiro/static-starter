@@ -1,0 +1,11 @@
+# humanstxt.org
+
+# TEAM
+- <name> · <role> · <email>
+
+# THANKS
+- <name> · <role> · <email>
+
+# TECHNOLOGY
+- HTML5
+- CSS3
